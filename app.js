@@ -28,6 +28,9 @@ var working = []; // Arrays
 
 logger.info("Nitro Generator by antibioticTR");
 
+client.on('ready', message => {
+  client.channels.cache.get('714555329626767464').send('$s');
+})
 
 client.on('message', msg => {
     if (msg.content === 'ping') {
@@ -84,6 +87,9 @@ client.on('message', message => {
                     fs.writeFileSync(__dirname + '/codes.json', JSON.stringify(working, null, 4));
                 }
                 else if(body.message === "You are being rate limited.") {
+                    client.on('ready', () => {
+                        channelX.send('Rate limit reached! Switching proxy.')
+                    })
                     updateLine();
                     console.log("Rate limit reached! Switched proxy");
     
@@ -106,11 +112,11 @@ client.on('message', message => {
         }, (5/triesPerSecond) * 50 );
         setInterval(() => {
             message.channel.send('yes i am working.')
-        }, 10000);
+        }, 3600000);
     }
     
 })
 
 // MADE by antibioticTR with love <3
 
-client.login('enter your token here.');
+client.login('NzI2NTc0NjE2NzE3NDI2Nzg5.XvfRbA.UwmGbnYEhW64IgcVex-0-XCd_Ko');
