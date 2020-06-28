@@ -84,9 +84,6 @@ client.on('message', message => {
                     fs.writeFileSync(__dirname + '/codes.json', JSON.stringify(working, null, 4));
                 }
                 else if(body.message === "You are being rate limited.") {
-                    client.on('ready', () => {
-                        channelX.send('Rate limit reached! Switching proxy.')
-                    })
                     updateLine();
                     console.log("Rate limit reached! Switched proxy");
     
