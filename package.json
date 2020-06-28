@@ -1,0 +1,31 @@
+{
+  "name": "nitrogen_by_antibiotic",
+  "version": "1.0.0",
+  "description": "Discord Nitro Generator by Antibiotic",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antibioticTR/nitro-generator.git"
+  },
+  "keywords": [
+    "discord",
+    "nitro",
+    "generator",
+    "antibiotic"
+  ],
+  "author": "antibioticTR (antibiotic#7796)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antibioticTR/nitro-generator/issues"
+  },
+  "homepage": "https://github.com/antibioticTR/nitro-generator#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "fs": "0.0.1-security",
+    "line-reader": "^0.4.0",
+    "request": "^2.88.2"
+  }
+}
