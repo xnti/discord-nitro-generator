@@ -6,7 +6,7 @@ Discord Bot that tries Discord Nitro gift codes if exists.
 
     giftCode = function () {
 		    let code = "";
-		    let letters =	"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+		    let letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     
 	    for (var i = 0; i < 18; i++) {
 	    code = code + letters.charAt(Math.floor(Math.random() * letters.length));
