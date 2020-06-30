@@ -1,5 +1,5 @@
 # discord-nitro-generator
-discord bot that tries discord nitro gift codes if exists.
+discord bot that tries discord nitro gift codes if exists. however it is very low chance to get a working nitro gift.
 
 # how to use
 - install node.js
@@ -7,3 +7,4 @@ discord bot that tries discord nitro gift codes if exists.
 - enter your bot's login information, enter a channel's id.
 - put your proxy list to "proxies.txt"
 - run app.js with node
+
