@@ -17,7 +17,7 @@ https://prnt.sc/tas4w7
        return code;
     }
 
-[Website](https://www.theculturemedium.com)
+[Website](https://www.antidev.xyz)
 # how to use
 - install node.js
 - invite bot to your discord server
