@@ -7,6 +7,7 @@ Discord Bot that tries Discord Nitro gift codes if exists.
 UPDATE: I hit a Discord Nitro Gift Code that actually exists but I was sleeping couldn't be able to redeem. Sad ;(
 https://prnt.sc/tas4w7
 
+```js
     giftCode = function () {
 		    let code = "";
 		    let letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
@@ -16,6 +17,7 @@ https://prnt.sc/tas4w7
     }
        return code;
     }
+```
 
 [Website](https://www.antidev.xyz)
 # how to use
