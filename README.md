@@ -11,11 +11,10 @@ https://prnt.sc/tas4w7
     giftCode = function () {
 		    let code = "";
 		    let letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-    
-	    for (var i = 0; i < 18; i++) {
-	    code = code + letters.charAt(Math.floor(Math.random() * letters.length));
-    }
-       return code;
+	for (var i = 0; i < 18; i++) {
+		code = code + letters.charAt(Math.floor(Math.random() * letters.length));
+    	}
+	return code;
     }
 ```
 
