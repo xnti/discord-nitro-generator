@@ -4,8 +4,10 @@ Discord Bot that tries Discord Nitro gift codes if exists.
 
 ***[!]*** However **it is very low chance** to get a working *Nitro gift* due to **randomized 18 digit code.**
 
-UPDATE: I hit a Discord Nitro Gift Code that actually exists but I was sleeping couldn't be able to redeem. Sad ;(
-https://prnt.sc/tas4w7
+Discord Nitro = 18 Chars (1.8325271e+32 possibility)
+Discord Nitro Classic = 16 Chars (4.7672402e+28 possibility)
+
+Mathematically impossible if you consider gifts are claimed by real recipient in hours. :c
 
 ```js
     giftCode = function () {
