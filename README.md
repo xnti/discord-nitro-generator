@@ -30,7 +30,7 @@ Mathematically impossible if you consider gifts are claimed by real recipient in
 # how to use
 - Install node.js from offical website
 - Create a bot in Discord's Developer Portal.
-- Enter your Bot's login token information, enter a Channel ID into `settings.js` .
+- Enter your Bot's login token information, enter a Channel ID into `settings.js`.
 - Invite bot to your Discord Server
 - Put VALID proxy list to "proxies.txt"
 - Run app.js with Node.js( `node app.js` )
