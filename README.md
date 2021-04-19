@@ -28,9 +28,10 @@ Mathematically impossible if you consider gifts are claimed by real recipient in
 
 [Website](https://www.antidev.xyz)
 # how to use
-- install node.js
-- invite bot to your discord server
-- enter your bot's login information, enter a channel's id.
-- put your proxy list to "proxies.txt"
-- run app.js with node
+- Install node.js from offical website
+- Create a bot in Discord's Developer Portal.
+- Enter your Bot's login token information, enter a Channel ID into SETTINGS.JS .
+- Invite bot to your Discord Server
+- Put VALID proxy list to "proxies.txt"
+- Run app.js with Node.js( `node app.js` )
 
