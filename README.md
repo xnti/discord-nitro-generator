@@ -1,11 +1,9 @@
 
 ## Discord Nitro Generator 
-<img src="https://img.shields.io/github/license/xnti/discord-nitro-generator">
-<img src="https://img.shields.io/github/last-commit/xnti/discord-nitro-generator">
-<img src="https://img.shields.io/github/stars/xnti/discord-nitro-generator?style=social">
+<img src="https://img.shields.io/github/license/xnti/discord-nitro-generator"><img src="https://img.shields.io/github/last-commit/xnti/discord-nitro-generator"><img src="https://img.shields.io/github/stars/xnti/discord-nitro-generator?style=social">
 
 ## Follow me: <img src="https://img.shields.io/github/followers/xnti?style=social">
-------------
+
 
 Discord Bot that tries Discord Nitro gift codes if exists. 
 
@@ -40,14 +38,19 @@ Mathematically impossible if you consider gifts are claimed by real recipient in
 - Create a bot in Discord's Developer Portal.
 - Enter your Bot's login token information, enter a Channel ID into `settings.js`.
 ```js
-	/* settings.txt */
+/* settings.txt */
 
-	exports.DISCORD_CHANNEL_ID = "YOUR_DISCORD_CHANNEL_ID"; // Your Discord server's Channel ID, please change it with desired channel that you want. Bot will message valid Discord Nitros when found.
-	exports.BOT_TOKEN = "YOUR_TOKEN" // Your bot's login token information please change it.
+exports.DISCORD_CHANNEL_ID = "YOUR_DISCORD_CHANNEL_ID"; 
+/* Your Discord server's Channel ID,
+please change it with desired channel that you want.
+Bot will message valid Discord Nitros when found. */
+
+exports.BOT_TOKEN = "YOUR_TOKEN" 
+/* Your bot's login token information please change it.*/
 ```
 - Invite bot to your Discord Server.
 - Put VALID proxy list to "proxies.txt".
 - Run ``app.js`` with Node.js 
 ```bash
-	$ node app.js
+$ node app.js
 ``` 
