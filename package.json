@@ -14,10 +14,10 @@
     "discord",
     "nitro",
     "generator",
-    "antibiotic"
+    "xnti"
   ],
-  "author": "antibioticTR (antibiotic#7796)",
-  "license": "ISC",
+  "author": "xnti",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/xnti/discord-nitro-generator/issues"
   },
