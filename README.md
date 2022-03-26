@@ -29,26 +29,31 @@ Mathematically impossible if you consider gifts are claimed by real recipient in
     }
 ```
 
-[Website](https://www.antidev.xyz)
-# How to use ?
+[Website](https://www.antidev.net)
+# Requirements
+- Node.js
+- Node Package Manager (npm)
 
-- Install node.js from their Offical Website
-- Create a bot in Discord's Developer Portal.
-- Enter your Bot's login token information, enter a Channel ID into `settings.js`.
-```js
-/* settings.txt */
+# Dependencies
+- fs
+- line-reader
+- request
 
-exports.DISCORD_CHANNEL_ID = "YOUR_DISCORD_CHANNEL_ID"; 
-/* Your Discord server's Channel ID,
-please change it with desired channel that you want.
-Bot will message valid Discord Nitros when found. */
-
-exports.BOT_TOKEN = "YOUR_TOKEN" 
-/* Your bot's login token information please change it.*/
+# How to install & run
+- Firstly clone repo with command line.
+```bash 
+$ git clone https://github.com/xnti/discord-nitro-generator
 ```
-- Invite bot to your Discord Server.
-- Put VALID proxy list to "proxies.txt".
-- Run ``app.js`` with Node.js 
+- Switch directory to repo.
 ```bash
+$ cd discord-nitro-generator
+```
+- Install dependencies.
+```bash
+$ npm install
+```
+- Run application.
+```bash 
 $ node app.js
-``` 
+```
+
