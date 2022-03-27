@@ -16,6 +16,7 @@ const updateProxy = () => {
             if (last)
                 readLine = 0;
         })
+        return true;
     }
     catch (err) {
         log.error(err)

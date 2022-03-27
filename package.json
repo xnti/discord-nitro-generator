@@ -4,7 +4,7 @@
   "description": "Discord Nitro Generator by xnti",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "test": "jest --forceExit"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
     "fs": "0.0.1-security",
     "line-reader": "^0.4.0",
     "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
   }
 }
